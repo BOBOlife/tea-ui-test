@@ -1,0 +1,23 @@
+{
+  "name": "bowengulu",
+  "version": "0.0.1",
+  "description": "这是一个UI框架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BOBOlife/gulu-test.git"
+  },
+  "keywords": [
+    "vue",
+    "ui"
+  ],
+  "author": "鱼塘主罐头",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BOBOlife/gulu-test/issues"
+  },
+  "homepage": "https://github.com/BOBOlife/gulu-test#readme"
+}
