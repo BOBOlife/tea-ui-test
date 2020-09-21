@@ -1,5 +1,5 @@
 {
-  "name": "bowengulu",
+  "name": "bowen-gulu",
   "version": "0.0.1",
   "description": "这是一个UI框架",
   "main": "index.js",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/BOBOlife/gulu-test/issues"
   },
-  "homepage": "https://github.com/BOBOlife/gulu-test#readme"
+  "homepage": "https://github.com/BOBOlife/gulu-test#readme",
+  "dependencies": {
+    "vue": "^2.6.12"
+  }
 }
