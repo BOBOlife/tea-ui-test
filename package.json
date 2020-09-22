@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/BOBOlife/gulu-test#readme",
   "dependencies": {
+    "git-open": "^2.1.0",
+    "global": "^4.4.0",
     "vue": "^2.6.12",
     "vue-hot-reload-api": "^2.3.4"
   },
