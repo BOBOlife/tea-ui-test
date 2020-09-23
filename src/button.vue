@@ -49,25 +49,15 @@
     justify-content: center;
     vertical-align: middle;
 
-    &:hover {
-      border-color: var(---border-color-hover);
-    }
+    &:hover {border-color: var(---border-color-hover);}
 
-    &:active {
-      background-color: var(--button-active-bg);
-    }
+    &:active {background-color: var(--button-active-bg);}
 
-    &:focus {
-      outline: none;
-    }
+    &:focus {outline: none;}
 
-    > .content {
-      order: 2;
-    }
+    > .content {order: 2;}
 
-    > .icon {
-      order: 1;
-      margin-right: .1em;
+    > .icon {order: 1;margin-right: .1em;
     }
 
     &.icon-right {
