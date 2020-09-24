@@ -1,4 +1,5 @@
-# 波纹咕噜 - 一个Vue UI组件
+# 波咕噜 - 一个Vue UI组件
+[![Build Status](https://travis-ci.org/BOBOlife/gulu-test.svg?branch=master)](https://travis-ci.org/BOBOlife/gulu-test)
 ## 介绍
 
 ## 开始使用
