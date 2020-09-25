@@ -5,9 +5,11 @@
 </template>
 
 <script lang="ts">
-export default {
-  props:['name']
-}
+  import './svg.js';
+
+  export default {
+    props: ['name']
+  };
 
 </script>
 
