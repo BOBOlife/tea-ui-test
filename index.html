@@ -37,7 +37,10 @@
 <body>
 <div id="app">
   <div class="box">
-    <g-input value="张三"></g-input>
+    <div>
+      {{message}}
+    </div>
+    <g-input v-model="message"></g-input>
     <g-input value="里斯" disabled></g-input>
     <g-input value="王五" :readonly="true"></g-input>
   </div>
