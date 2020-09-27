@@ -35,69 +35,34 @@
   </style>
 </head>
 <body>
+<style>
+  .demo {
+    background: #dddddd;
+    border: 1px solid #666;
+    height: 100px;
+  }
+</style>
 <div id="app">
-  <div style="border:1px solid black">
-    <g-row gutter="20">
-      <g-col span="2"
-             :phone="{span:12}"
-      >
-        1
-      </g-col>
-      <g-col span="20"
-             :phone="{span:12,offset:0}"
-      >
-        2
-      </g-col>
-    </g-row>
-    <g-row>
-      <g-col>1</g-col>
-      <g-col>2</g-col>
-      <g-col>3</g-col>
-      <g-col>4</g-col>
-    </g-row>
-    <g-row>
-      <g-col>1</g-col>
-      <g-col>2</g-col>
-      <g-col>3</g-col>
-      <g-col>4</g-col>
-    </g-row>
-    <g-row>
-      <g-col span="2">1</g-col>
-      <g-col span="22">11</g-col>
-    </g-row>
-    <g-row>
-      <g-col span="2">1</g-col>
-      <g-col span="20" offset="2">11</g-col>
-    </g-row>
-  </div>
-
-
-  <hr/>
-  <div class="box">
-    <div>
-      {{message}}
-    </div>
-    <g-input v-model="message"></g-input>
-    <g-input value="里斯" disabled></g-input>
-    <g-input value="王五" :readonly="true"></g-input>
-  </div>
-  <div class="box">
-    <g-input value="李斯" @change="inputChange"></g-input>
-  </div>
-  <div class="box">
-    <g-input value="李斯" error="姓名不能少于两个字"></g-input>
-  </div>
-
-  <div style="margin-top: 20px">
-    <g-button :loading="loading1" icon="settings" @click="loading1 = !loading1">按钮</g-button>
-    <g-button :loading="loading2" @click="loading2 = !loading2">按钮</g-button>
-    <g-button :loading="loading3" icon="settings" icon-position="right" @click="loading3 = !loading3">按钮</g-button>
-    <g-button-group>
-      <g-button icon="left">上一页</g-button>
-      <g-button>更多</g-button>
-      <g-button icon="right" icon-position="right">下一页</g-button>
-    </g-button-group>
-  </div>
+  <g-row>
+    <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:8}">
+      <div class="demo"></div>
+    </g-col>
+    <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:8}">
+      <div class="demo"></div>
+    </g-col>
+    <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:8}">
+      <div class="demo"></div>
+    </g-col>
+    <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:8}">
+      <div class="demo"></div>
+    </g-col>
+    <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:8}">
+      <div class="demo"></div>
+    </g-col>
+    <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:8}">
+      <div class="demo"></div>
+    </g-col>
+  </g-row>
 </div>
 
 <script src="./src/app.js"></script>
