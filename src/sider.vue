@@ -1,16 +1,15 @@
 <template>
-  <div class="content">
+  <div class="sider">
     <slot></slot>
   </div>
 </template>
 
 <script>
-
-  export default {}
+  export default {
+    name: 'GuLuSider',
+  }
 </script>
 
 <style lang="scss" scoped>
-  .content {
-    flex-grow: 1;
-  }
+
 </style>
