@@ -34,13 +34,14 @@
         if (!obj) {return []}
         let array = []
         if (obj.span) {array.push(`col-${str}${obj.span}`)}
-        if (obj.offset) {array.push(`col-${str}${obj.offset}`)}
+        if (obj.offset) {array.push(`offset-${str}${obj.offset}`)}
         return array
       }
     },
     computed: {
       colClass() {
-        let {span, offset, ipad, narrowPc, pc, widePc, createClasses} = this
+        let {span, offset, ipad, narrowPc, pc, widePc} = this
+        let createClasses = this.createClasses
         return [
           ...createClasses({span, offset}),
           ...createClasses(ipad, 'ipad-'),
