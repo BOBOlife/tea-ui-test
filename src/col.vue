@@ -19,7 +19,6 @@
     props: {
       span: {type: [Number, String]},
       offset: {type: [Number, String]},
-      phone: {type: Object, validator},
       ipad: {type: Object, validator},
       narrowPc: {type: Object, validator},
       pc: {type: Object, validator},
@@ -30,17 +29,25 @@
         gutter: 0
       }
     },
+    methods: {
+      createClasses(obj, str = '') {
+        if (!obj) {return []}
+        let array = []
+        if (obj.span) {array.push(`col-${str}${obj.span}`)}
+        if (obj.offset) {array.push(`col-${str}${obj.offset}`)}
+        return array
+      }
+    },
     computed: {
       colClass() {
-        let {span, offset, phone, ipad, narrowPc, pc, widePc} = this
+        let {span, offset, ipad, narrowPc, pc, widePc, createClasses} = this
         return [
-          span && `col-${span}`,
-          offset && `offset-${offset}`,
-          ...(phone ? [`col-phone-${phone.span}`] : []),
-          ...(ipad ? [`col-ipad-${ipad.span}`] : []),
-          ...(narrowPc ? [`col-narrow-pc-${narrowPc.span}`] : []),
-          ...(pc ? [`col-pc-${pc.span}`] : []),
-          ...(widePc ? [`col-wide-pc-${widePc.span}`] : []),
+          ...createClasses({span, offset}),
+          ...createClasses(ipad, 'ipad-'),
+          ...createClasses(narrowPc, 'narrow-pc-'),
+          ...createClasses(pc, 'pc-'),
+          ...createClasses(widePc, 'wide-pc-'),
+
         ]
       },
       colStyle() {
