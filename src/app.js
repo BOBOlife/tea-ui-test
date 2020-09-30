@@ -49,7 +49,7 @@ new Vue({
         },
         autoClose: true,
         autoCloseDelay: 3,
-        position: 'middle'
+        position: 'bottom'
       })
     }
   }
