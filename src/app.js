@@ -36,22 +36,21 @@ new Vue({
     message: 'ha'
   },
   created() {
-    this.$toast('你的智商需要交税', {
-      enableHtml: false,
-      closeButton: {
-        text: '已交税',
-        callback() {
-          console.log('已经冲了对吧')
-        }
-      },
-      autoClose: true,
-      autoCloseDelay: 3,
-      position:'middle'
-    })
-
   },
   methods: {
     showToast() {
+      this.$toast('你的智商需要交税', {
+        enableHtml: false,
+        closeButton: {
+          text: '已交税',
+          callback() {
+            console.log('已经冲了对吧')
+          }
+        },
+        autoClose: true,
+        autoCloseDelay: 3,
+        position: 'middle'
+      })
     }
   }
 })
