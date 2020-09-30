@@ -36,10 +36,12 @@ new Vue({
     message: 'ha'
   },
   created() {
+    this.$toast('你爹爹你爹你爹你爹你爹你爹你爹', {
+    })
+
   },
   methods: {
     showToast() {
-      this.$toast('我是message')
     }
   }
 })
