@@ -18,12 +18,11 @@
     name: 'GuLuToast',
     props: {
       autoClose: {
-        type: Boolean,
-        default: true
-      },
-      autoCloseDelay: {
-        type: Number,
-        default: 50
+        type: [Boolean,Number],
+        default: 5,
+        validator(value){
+          return value === false || typeof value === 'number';
+        }
       },
       closeButton: {
         type: Object,
@@ -62,7 +61,7 @@
         if (this.autoClose) {
           setTimeout(() => {
             this.close()
-          }, this.autoCloseDelay * 1000)
+          }, this.autoClose * 1000)
         }
       },
       onClickClose() {
@@ -89,10 +88,12 @@
     0% {opacity: 0;transform: translateY(100%)}
     100% {opacity: 1;transform: translateY(0%)}
   }
+
   @keyframes slide-down {
     0% {opacity: 0;transform: translateY(-100%)}
     100% {opacity: 1;transform: translateY(0%)}
   }
+
   @keyframes fade-in {
     0% {opacity: 0;}
     100% {opacity: 1;}
@@ -115,6 +116,7 @@
 
     &.position-bottom {
       bottom: 0;
+
       .toast {
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
@@ -125,7 +127,8 @@
     &.position-middle {
       top: 50%;
       transform: translate(-50%, -50%);
-      .toast{
+
+      .toast {
         animation: fade-in 1s;
       }
     }

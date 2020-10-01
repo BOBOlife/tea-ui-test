@@ -54,8 +54,7 @@ new Vue({
             console.log('已经冲了对吧')
           }
         },
-        autoClose: true,
-        autoCloseDelay: 3,
+        autoClose: 3,
         position
       })
     }
