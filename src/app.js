@@ -12,6 +12,11 @@ import Sider from './sider'
 import Content from './content'
 import Toast from './toast'
 import plugin from './plugin'
+import Tags from './tabs'
+import TagsHead from './tabs-head'
+import TagsBody from './tabs-body'
+import TagsItem from './tabs-item'
+import TagsPane from './tabs-pane'
 
 Vue.component('g-button', Button)
 Vue.component('g-icon', Icon)
@@ -26,6 +31,11 @@ Vue.component('g-content', Content)
 Vue.component('g-header', Header)
 Vue.component('g-toast', Toast)
 Vue.use(plugin)
+Vue.component('g-tabs', Tags)
+Vue.component('g-tabs-head', TagsHead)
+Vue.component('g-tabs-body', TagsBody)
+Vue.component('g-tabs-item', TagsItem)
+Vue.component('g-tabs-pane', TagsPane)
 
 new Vue({
   el: '#app',
