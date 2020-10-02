@@ -27,7 +27,7 @@ describe('Toast', () => {
       })
     })
 
-    it('接受 closeButton', function () {
+    it('接受 closeButton', function (done) {
       const callback = sinon.fake()
       const Constructor = Vue.extend(Toast)
       const vm = new Constructor({
@@ -40,8 +40,11 @@ describe('Toast', () => {
       }).$mount()
       let closeButton = vm.$el.querySelector('.close')
       expect(closeButton.textContent.trim()).to.eq('光了')
-      closeButton.click() //被点击了
-      expect(callback).to.have.been.called
+      setTimeout(()=>{
+        closeButton.click() //被点击了
+        expect(callback).to.have.been.called
+        done()
+      },200)
     })
 
     it('接受 enable', () => {
@@ -70,7 +73,6 @@ describe('Toast', () => {
       })
       vm.$slots.default = ['<strong id="test">hi</strong>']
       vm.$mount()
-      console.log(vm.$el.outerHTML)
       let strong = vm.$el.querySelector('#test')
       expect(strong).to.exist
     })
