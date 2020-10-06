@@ -48,7 +48,7 @@ new Vue({
     loading2: true,
     loading3: false,
     message: 'ha',
-    selectedTab: 'sports'
+    selectedTab: '2'
   },
   created() {
   },
