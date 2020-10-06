@@ -33,11 +33,14 @@
       }
     },
     mounted() {
+      if (this.$children.length === 0) {
+        console && console.warn && console.warn('tabs的子组件应该是g-tabs-head和g-tabs-body，但你没有写子组件')
+      }
       this.$children.forEach((vm) => {
         if (vm.$options.name === 'GuLuTabsHead') {
           vm.$children.forEach((childVm) => {
             if (childVm.$options.name === 'GuLuTabsItem' && childVm.name === this.selected) {
-              this.eventBus.$emit('update:selected', this.selected,childVm)
+              this.eventBus.$emit('update:selected', this.selected, childVm)
             }
           })
         }

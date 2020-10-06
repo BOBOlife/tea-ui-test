@@ -12,11 +12,11 @@ import Sider from './sider'
 import Content from './content'
 import Toast from './toast'
 import plugin from './plugin'
-import Tags from './tabs'
-import TagsHead from './tabs-head'
-import TagsBody from './tabs-body'
-import TagsItem from './tabs-item'
-import TagsPane from './tabs-pane'
+import Tabs from './tabs'
+import TabsHead from './tabs-head'
+import TabsBody from './tabs-body'
+import TabsItem from './tabs-item'
+import TabsPane from './tabs-pane'
 
 Vue.component('g-button', Button)
 Vue.component('g-icon', Icon)
@@ -31,11 +31,11 @@ Vue.component('g-content', Content)
 Vue.component('g-header', Header)
 Vue.component('g-toast', Toast)
 Vue.use(plugin)
-Vue.component('g-tabs', Tags)
-Vue.component('g-tabs-head', TagsHead)
-Vue.component('g-tabs-body', TagsBody)
-Vue.component('g-tabs-item', TagsItem)
-Vue.component('g-tabs-pane', TagsPane)
+Vue.component('g-tabs', Tabs)
+Vue.component('g-tabs-head', TabsHead)
+Vue.component('g-tabs-body', TabsBody)
+Vue.component('g-tabs-item', TabsItem)
+Vue.component('g-tabs-pane', TabsPane)
 
 new Vue({
   el: '#app',
