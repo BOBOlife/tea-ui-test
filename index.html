@@ -28,27 +28,30 @@
     }
   </style>
 </head>
-<body>
+<body style="border: 2px solid red">
 
 <div id="app" style="padding: 100px;">
-  <g-popover>
-    <template slot="content">
-      <div>popover内容</div>
-    </template>
-    <button>点我</button>
-  </g-popover>
-  <g-popover>
-    <template slot="content">
-      <div>popover内容</div>
-    </template>
-    <button>点我</button>
-  </g-popover>
+  <div style="overflow: hidden;border: 1px solid green;padding: 5px;">
+    <g-popover>
+      <template slot="content">
+        <div>popover内容</div>
+      </template>
+      <button>点我</button>
+    </g-popover>
+    <g-popover>
+      <template slot="content">
+        <div>popover内容</div>
+      </template>
+      <button>点我</button>
+    </g-popover>
+  </div>
 
-<!--  <g-collapse :selected.sync="selectedTab" single>-->
-<!--    <g-collapse-item title="标题1" name="1">内容1</g-collapse-item>-->
-<!--    <g-collapse-item title="标题2" name="2">内容2</g-collapse-item>-->
-<!--    <g-collapse-item title="标题3" name="3">内容3</g-collapse-item>-->
-<!--  </g-collapse>-->
+
+  <!--  <g-collapse :selected.sync="selectedTab" single>-->
+  <!--    <g-collapse-item title="标题1" name="1">内容1</g-collapse-item>-->
+  <!--    <g-collapse-item title="标题2" name="2">内容2</g-collapse-item>-->
+  <!--    <g-collapse-item title="标题3" name="3">内容3</g-collapse-item>-->
+  <!--  </g-collapse>-->
 </div>
 
 <script src="./src/app.js"></script>
