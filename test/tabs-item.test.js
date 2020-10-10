@@ -1,5 +1,3 @@
-import Button from '../src/button'
-
 const expect = chai.expect
 import Vue from 'vue'
 import Tabs from '../src/tabs'
@@ -39,7 +37,6 @@ describe('TabsItem', () => {
         disabled: true
       }
     }).$mount()
-    console.log(vm.$el.outerHTML)
     expect(vm.$el.classList.contains('disabled')).to.be.true
     const callback = sinon.fake()
     vm.$on('click', callback)
