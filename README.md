@@ -1,4 +1,4 @@
-# 波咕噜 - 一个Vue UI组件
+# Tea - 一个Vue UI组件
 [![Build Status](https://travis-ci.org/BOBOlife/gulu-test.svg?branch=master)](https://travis-ci.org/BOBOlife/gulu-test)
 ## 介绍
 这是我在学习Vue的过程中做的一个UI框架，希望对你有用
