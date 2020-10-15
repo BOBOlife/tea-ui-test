@@ -6,7 +6,9 @@
 
 <script>
 
-  export default {}
+  export default {
+    name:'GuLuFooter'
+  }
 </script>
 
 <style lang="scss" scoped>

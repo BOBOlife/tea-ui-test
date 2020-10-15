@@ -1,5 +1,5 @@
 ---
-title: Tabs
+title: Tabs - 标签
 sidebarDepth: 2
 ---
 
@@ -8,6 +8,5 @@ sidebarDepth: 2
 <h2>简单方法</h2>
 
 **预览** 
-
 
 <tabs-demos></tabs-demos>
