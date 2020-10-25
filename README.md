@@ -44,6 +44,10 @@ export default {
 
 ## 联系方式
 
+邮箱: bbw1996@qq.com
+
+微信: EternalBOBO
+
 ## 贡献代码
 
 作者：塘主无鱼
