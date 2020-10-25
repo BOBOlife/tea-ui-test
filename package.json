@@ -1,6 +1,6 @@
 {
-  "name": "bobo-gulu",
-  "version": "0.0.2",
+  "name": "Tea UI",
+  "version": "0.0.3",
   "description": "这是一个UI框架",
   "main": "dist/index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "vue",
     "ui"
   ],
-  "author": "鱼塘主罐头",
+  "author": "塘主无鱼",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/BOBOlife/gulu-test/issues"
