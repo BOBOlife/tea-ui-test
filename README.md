@@ -38,6 +38,9 @@ export default {
 
 ## 文档
 
+官方文档地址:
+http://bobolife.xyz/gulu-test/
+
 ## 提问
 
 ## 变更记录
