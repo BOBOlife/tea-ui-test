@@ -31,7 +31,7 @@
     display: flex;
     height: $tab-height;
     justify-content: flex-start;
-    align-items: center;
+    /*align-items: center;*/
     position: relative;
     border-bottom: 1px solid $border-color;
 

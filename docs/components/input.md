@@ -5,7 +5,8 @@ sidebarDepth: 2
 
 # 输入框
 
-使用方法
+<h2>预览</h2>
+<br>
 
 <input-demos></input-demos>
 

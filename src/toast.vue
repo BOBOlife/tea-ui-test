@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper" :class="toastClasses">
+  <div class="wrapper" :class="toastClasses" :style="{zIndex}">
     <div class="toast" ref="toast">
       <div class="message">
         <slot v-if="!enableHtml"></slot>
@@ -17,11 +17,15 @@
   export default {
     name: 'GuLuToast',
     props: {
+      zIndex: {
+        type: Number,
+        default: 20
+      },
       autoClose: {
-        type: [Boolean,Number],
+        type: [Boolean, Number],
         default: 5,
-        validator(value){
-          return value === false || typeof value === 'number';
+        validator(value) {
+          return value === false || typeof value === 'number'
         }
       },
       closeButton: {
