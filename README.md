@@ -11,31 +11,20 @@
    *,*::before,*::after {box-sizing: border-box;}
    ```
    IE 8 及以上浏览器都支持此样式
-   
-   你还需要设置默认颜色等变量 （后续会改为 SCSS 变量）
-   ```CSS
-     html {
-         --button-height: 32px;
-         --font-size: 14px;
-         --button-bg: #ffffff;
-         --button-active-bg: #eee;
-         --border-radius: 4px;
-         --color: #333;
-         --border-color: #999;
-         ---border-color-hover: #666
-       }
-   ```
-IE 15 及以上浏览器都支持此样式
 
-2. 安装 bobo-gulu
+2. 安装 tea-ui
 ```
-npm i --save bobo-gulu
+npm i --save tea-ui
+```
+```
+# 优先推荐yarn  
+yarn add tea-ui
 ```
 
-3.  引入 bobo-gulu
+3.  引入 tea-ui
 ```
-import {Button,ButtonGroup,Icon} from 'bobo-gulu'
-import 'bobo-gulu/dist/index.css'
+import {Button,ButtonGroup,Icon} from 'tea-ui'
+import 'tea-ui/dist/index.css'
 
 export default {
     name: 'app',
@@ -56,5 +45,6 @@ export default {
 ## 联系方式
 
 ## 贡献代码
-作者：鱼塘主罐头
+
+作者：塘主无鱼
 
