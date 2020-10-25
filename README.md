@@ -45,6 +45,8 @@ http://bobolife.xyz/gulu-test/
 
 ## 变更记录
 
+变更记录地址：https://github.com/BOBOlife/gulu-test/commits/master
+
 ## 联系方式
 
 邮箱: bbw1996@qq.com
