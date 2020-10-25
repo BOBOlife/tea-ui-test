@@ -9,4 +9,6 @@ sidebarDepth: 2
 
 **预览** 
 
-<tabs-demos></tabs-demos>
+<ClientOnly>
+    <tabs-demos></tabs-demos>
+</ClientOnly>

@@ -9,7 +9,9 @@ sidebarDepth: 2
 
 **预览**
 
-<toast-demos></toast-demos>
+<ClientOnly>
+    <toast-demos></toast-demos>
+</ClientOnly>
 
 **代码**
 
@@ -23,7 +25,9 @@ sidebarDepth: 2
 
 **预览**
 
-<toast-demos2></toast-demos2>
+<ClientOnly>
+    <toast-demos2></toast-demos2>
+</ClientOnly>
 
 **代码**
 ```vue
@@ -53,7 +57,9 @@ export default {
 
 **预览**
 
-<toast-demos3></toast-demos3>
+<ClientOnly>
+    <toast-demos3></toast-demos3>
+</ClientOnly>
 
 **代码**
 ```vue

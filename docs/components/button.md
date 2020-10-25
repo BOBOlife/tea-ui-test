@@ -7,7 +7,9 @@ sidebarDepth: 2
 
 **预览**
 
-<button-demos></button-demos>
+<ClientOnly>
+    <button-demos></button-demos>
+</ClientOnly>
 
 **使用方法**
 ```vue
@@ -38,7 +40,9 @@ sidebarDepth: 2
 
 **预览**
 
-<button-group-demos></button-group-demos>
+<ClientOnly>
+    <button-group-demos></button-group-demos>
+</ClientOnly>
 
 **代码**
 ```vue

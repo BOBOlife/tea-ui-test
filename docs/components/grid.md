@@ -12,7 +12,9 @@ sidebarDepth: 2
 
 **预览**
 
-<grid-demos></grid-demos>
+<ClientOnly>
+    <grid-demos></grid-demos>
+</ClientOnly>
 
 **代码**
 ~~~vue
@@ -61,7 +63,9 @@ sidebarDepth: 2
 
 **预览**
 
-<grid-demos2></grid-demos2>
+<ClientOnly>
+    <grid-demos2></grid-demos2>
+</ClientOnly>
 
 **代码**
 ```vue
@@ -96,7 +100,9 @@ sidebarDepth: 2
 
 **预览**
 
-<grid-demos3></grid-demos3>
+<ClientOnly>
+    <grid-demos3></grid-demos3>
+</ClientOnly>
 
 **代码**
 ```vue
@@ -145,7 +151,9 @@ sidebarDepth: 2
 
 **预览**
 
-<grid-demos4></grid-demos4>
+<ClientOnly>
+    <grid-demos4></grid-demos4>
+</ClientOnly>
 
 **代码**
 ```vue

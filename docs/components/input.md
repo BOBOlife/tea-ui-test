@@ -8,7 +8,9 @@ sidebarDepth: 2
 <h2>预览</h2>
 <br>
 
-<input-demos></input-demos>
+<ClientOnly>
+    <input-demos></input-demos>
+</ClientOnly>
 
 <h2>使用方法</h2>
 
@@ -35,7 +37,9 @@ Input组件的选项有: `disabled` , `readOnly` , `error` ,以及支持**双向
 
 **预览**
 
-<input-demos2></input-demos2>
+<ClientOnly>
+    <input-demos2></input-demos2>
+</ClientOnly>
 
 **代码**
 ```vue

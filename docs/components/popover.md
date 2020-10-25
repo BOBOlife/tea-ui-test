@@ -9,7 +9,9 @@ sidebarDepth: 2
 
 **预览**
 
-<popover-demos></popover-demos>
+<ClientOnly>
+    <popover-demos></popover-demos>
+</ClientOnly>
 
 **代码**
 ```vue
@@ -46,8 +48,9 @@ sidebarDepth: 2
 
 **预览**
 
-<popover-demos2></popover-demos2>
-
+<ClientOnly>
+    <popover-demos2></popover-demos2>
+</ClientOnly>
 
 **代码**
 ```vue
