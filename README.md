@@ -46,7 +46,7 @@ export default {
 
 邮箱: bbw1996@qq.com
 
-微信: EternalBOBO
+微信: EternalBoBo
 
 ## 贡献代码
 
