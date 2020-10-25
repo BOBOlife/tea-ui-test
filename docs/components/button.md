@@ -8,7 +8,7 @@ sidebarDepth: 2
 **预览**
 
 <ClientOnly>
-    <button-demos></button-demos>
+<button-demos></button-demos>
 </ClientOnly>
 
 **使用方法**
@@ -41,7 +41,7 @@ sidebarDepth: 2
 **预览**
 
 <ClientOnly>
-    <button-group-demos></button-group-demos>
+<button-group-demos></button-group-demos>
 </ClientOnly>
 
 **代码**

@@ -10,7 +10,7 @@ sidebarDepth: 2
 **预览**
 
 <ClientOnly>
-    <toast-demos></toast-demos>
+<toast-demos></toast-demos>
 </ClientOnly>
 
 **代码**
@@ -26,7 +26,7 @@ sidebarDepth: 2
 **预览**
 
 <ClientOnly>
-    <toast-demos2></toast-demos2>
+<toast-demos2></toast-demos2>
 </ClientOnly>
 
 **代码**
@@ -58,7 +58,7 @@ export default {
 **预览**
 
 <ClientOnly>
-    <toast-demos3></toast-demos3>
+<toast-demos3></toast-demos3>
 </ClientOnly>
 
 **代码**

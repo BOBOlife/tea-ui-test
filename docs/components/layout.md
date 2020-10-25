@@ -9,7 +9,7 @@ sidebarDepth: 2
 **预览**
 
 <ClientOnly>
-    <layout-demos></layout-demos>
+<layout-demos></layout-demos>
 </ClientOnly>
 
 **代码**
@@ -33,7 +33,7 @@ sidebarDepth: 2
 **预览**
 
 <ClientOnly>
-    <layout-demos2></layout-demos2>
+<layout-demos2></layout-demos2>
 </ClientOnly>
 
 **代码**
@@ -60,7 +60,7 @@ sidebarDepth: 2
 **预览**
 
 <ClientOnly>
-    <layout-demos3></layout-demos3>
+<layout-demos3></layout-demos3>
 </ClientOnly>
 
 **代码**

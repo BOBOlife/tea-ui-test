@@ -10,7 +10,7 @@ sidebarDepth: 2
 **预览**
 
 <ClientOnly>
-    <popover-demos></popover-demos>
+<popover-demos></popover-demos>
 </ClientOnly>
 
 **代码**
@@ -49,7 +49,7 @@ sidebarDepth: 2
 **预览**
 
 <ClientOnly>
-    <popover-demos2></popover-demos2>
+<popover-demos2></popover-demos2>
 </ClientOnly>
 
 **代码**

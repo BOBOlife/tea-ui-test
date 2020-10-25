@@ -13,7 +13,7 @@ sidebarDepth: 2
 **预览**
 
 <ClientOnly>
-    <grid-demos></grid-demos>
+<grid-demos></grid-demos>
 </ClientOnly>
 
 **代码**
@@ -64,7 +64,7 @@ sidebarDepth: 2
 **预览**
 
 <ClientOnly>
-    <grid-demos2></grid-demos2>
+<grid-demos2></grid-demos2>
 </ClientOnly>
 
 **代码**
@@ -101,7 +101,7 @@ sidebarDepth: 2
 **预览**
 
 <ClientOnly>
-    <grid-demos3></grid-demos3>
+<grid-demos3></grid-demos3>
 </ClientOnly>
 
 **代码**
@@ -152,7 +152,7 @@ sidebarDepth: 2
 **预览**
 
 <ClientOnly>
-    <grid-demos4></grid-demos4>
+<grid-demos4></grid-demos4>
 </ClientOnly>
 
 **代码**

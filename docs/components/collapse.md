@@ -7,8 +7,9 @@ sidebarDepth: 2
 
 <h2>预览</h2>
 
+
 <ClientOnly>
-    <collapse-demos></collapse-demos>
+<collapse-demos></collapse-demos>
 </ClientOnly>
 
 <h2>使用方法</h2>
@@ -50,7 +51,7 @@ Collapse 组件还支持手风琴效果，就是只能同时显示一个面板�
 **预览**
 
 <ClientOnly>
-    <collapse-demos2></collapse-demos2>
+<collapse-demos2></collapse-demos2>
 </ClientOnly>
 
 
