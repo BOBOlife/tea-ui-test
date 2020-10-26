@@ -39,13 +39,23 @@ export default {
 ## 文档
 
 官方文档地址:
-http://bobolife.xyz/gulu-test/
+
+<a href="http://bobowanglife.gitee.io/gulu-test/">国内点击这里</a>
+<br>
+<a href="http://bobolife.xyz/gulu-test/">国外点击这里</a>
+
 
 ## 提问
 
 ## 变更记录
 
-变更记录地址：https://github.com/BOBOlife/gulu-test/commits/master
+变更记录地址:
+
+<a href="https://gitee.com/bobowanglife/gulu-test/commits/master">国内点击这里查看</a>
+<br>
+<a href="https://github.com/BOBOlife/gulu-test/commits/master">国外点击这里查看</a>
+
+
 
 ## 联系方式
 
