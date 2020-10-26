@@ -37,5 +37,7 @@
 </script>
 
 <style lang="scss" scoped>
-
+*{
+  box-sizing: border-box;
+}
 </style>

@@ -3,7 +3,7 @@ title: 安装
 
 ---
 
-Tea UI 是一个好用的 UI 框架，提供了 button,grid,input,layout,popover,tabs,toast 等常用组件，适合移动端和 PC 端使用。现在开始安装使用吧！
+Tears UI 是一个好用的 UI 框架，提供了 button,grid,input,layout,popover,tabs,toast 等常用组件，适合移动端和 PC 端使用。现在开始安装使用吧！
 
 # 安装
 
@@ -11,7 +11,7 @@ Tea UI 是一个好用的 UI 框架，提供了 button,grid,input,layout,popover
 
 ```text
 # 最新稳定版
-npm install tea-ui
+npm install tears-ui
 ```
 
 如果你使用的是 Vue CLI 搭建的项目，默认使用的包管理工具是 yarn,则您需跳过此步,以免出错。
@@ -21,5 +21,5 @@ npm install tea-ui
 
 ```
 # 最新稳定版
-yarn add tea-ui
+yarn add tears-ui
 ```

@@ -1,4 +1,4 @@
-# Tea - 一个Vue UI组件
+# Tears - 一个Vue UI组件
 [![Build Status](https://travis-ci.org/BOBOlife/gulu-test.svg?branch=master)](https://travis-ci.org/BOBOlife/gulu-test)
 ## 介绍
 这是我在学习Vue的过程中做的一个UI框架，希望对你有用
@@ -12,19 +12,19 @@
    ```
    IE 8 及以上浏览器都支持此样式
 
-2. 安装 tea-ui
+2. 安装 tears-ui
 ```
-npm i --save tea-ui
+npm i --save tears-ui
 ```
 ```
 # 优先推荐yarn  
-yarn add tea-ui
+yarn add tears-ui
 ```
 
-3.  引入 tea-ui
+3.  引入 tears-ui
 ```
-import {Button,ButtonGroup,Icon} from 'tea-ui'
-import 'tea-ui/dist/index.css'
+import {Button,ButtonGroup,Icon} from 'tears-ui'
+import 'tears-ui/dist/index.css'
 
 export default {
     name: 'app',

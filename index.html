@@ -16,35 +16,17 @@
 </head>
 <body style="border: 2px solid red">
 
-<div id="app" style="padding: 100px;">
-<!--  <div style="overflow: hidden;border: 1px solid green;padding: 5px;">-->
-<!--    <g-popover trigger="hover">-->
-<!--      <template slot="content">-->
-<!--        <div>popover内容</div>-->
-<!--      </template>-->
-<!--      <g-button>点我</g-button>-->
-<!--    </g-popover>-->
-<!--    <g-popover>-->
-<!--      <template slot="content">-->
-<!--        <div>popover内容</div>-->
-<!--      </template>-->
-<!--      <g-button>点我</g-button>-->
-<!--    </g-popover>-->
-<!--  </div>-->
-  <g-row align="center">
-    <g-col span="8">8</g-col>
-    <g-col span="8">8</g-col>
-    <g-col span="8">8</g-col>
-  </g-row>
-
-  <g-tabs :selected="true">
+<div id="app" style="margin-left: 100px">
+  <g-tabs selected="1">
     <g-tabs-head>
       <g-tabs-item name="1">1</g-tabs-item>
       <g-tabs-item name="2">2</g-tabs-item>
+      <g-tabs-item name="3">3333</g-tabs-item>
     </g-tabs-head>
     <g-tabs-body>
       <g-tabs-pane name="1">content 1</g-tabs-pane>
       <g-tabs-pane name="2">content 2</g-tabs-pane>
+      <g-tabs-pane name="3">content 3</g-tabs-pane>
     </g-tabs-body>
   </g-tabs>
   <!--  <g-collapse :selected.sync="selectedTab" single>-->
