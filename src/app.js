@@ -50,7 +50,7 @@ new Vue({
     loading2: true,
     loading3: false,
     message: 'ha',
-    selectedTab: ['2', '1']
+    selectedTab: []
   },
   created() {
   },

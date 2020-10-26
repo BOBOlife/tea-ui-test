@@ -8,8 +8,8 @@ title: 快速上手
 <h2>引入必要资源</h2>
 
 ```js
-import {Button} from "tea-ui";
-import "tea-ui/dist/index.css";
+import {Button} from "tears-ui";
+import "tears-ui/dist/index.css";
 ```
 
 <h2>注册组件</h2>

@@ -1,6 +1,6 @@
 module.exports = {
   base:'/gulu-test/',
-  title: 'Tea UI',
+  title: 'Tears UI',
   description: '一个好用的UI框架',
   themeConfig: {
     sidebar: [

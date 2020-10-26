@@ -57,6 +57,8 @@
   }
 </script>
 
-<style lang="scss" scoped>
-  .tabs {}
+<style lang="scss">
+  .tabs {
+    box-sizing: border-box;
+  }
 </style>

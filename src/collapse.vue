@@ -38,7 +38,7 @@
           selectedCopy.push(name)
         }
         this.eventBus.$emit('update:selected',selectedCopy)
-        this.$emit('update;selected', selectedCopy)
+        this.$emit('update:selected', selectedCopy)
       })
       this.eventBus.$on('update:removeSelected', (name) => {
         let selectedCopy = JSON.parse(JSON.stringify(this.selected))

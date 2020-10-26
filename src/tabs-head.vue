@@ -19,13 +19,13 @@
         let headLeft = this.$refs.head.getBoundingClientRect().left
         this.$refs.line.style.width = `${width}px`
         this.$refs.line.style.left = `${left-headLeft}px`
-        console.log(left)
       })
     }
   }
 </script>
 
 <style lang="scss" scoped>
+*{box-sizing: border-box}
   $tab-height: 40px;
   $blue: blue;
   $border-color: #ddd;
