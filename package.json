@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BOBOlife/gulu-test.git"
+    "url": "git+https://github.com/BOBOlife/tears-ui.git"
   },
   "keywords": [
     "vue",
@@ -21,9 +21,9 @@
   "author": "塘主无鱼",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BOBOlife/gulu-test/issues"
+    "url": "https://github.com/BOBOlife/tears-ui/issues"
   },
-  "homepage": "https://github.com/BOBOlife/gulu-test#readme",
+  "homepage": "https://github.com/BOBOlife/tears-ui#readme",
   "dependencies": {
     "git-open": "^2.1.0",
     "vue": "^2.6.12",

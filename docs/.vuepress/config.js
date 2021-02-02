@@ -1,5 +1,5 @@
 module.exports = {
-  base:'/gulu-test/',
+  base:'/tears-ui/',
   title: 'Tears UI',
   description: '一个好用的UI框架',
   themeConfig: {
